@@ -4,6 +4,6 @@
 
 - [Maker](https://twitter.com/JudoUergens)
 - Used Supabase DB and Storage (for images), the Stories are created with the Openai API
-- Note: The Zapp Preview seems to have bugs on mobile browsers.
+- Note: The Zapp Preview seems to have bugs on mobile browsers. But best experience is viewing the app in a phone like size. Have Fun :) 
 
 
