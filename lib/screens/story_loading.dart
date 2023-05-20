@@ -58,6 +58,9 @@ class _StoryLoadScreenState extends State<StoryLoadScreen> {
       );
     }
 
-    return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    return Scaffold(
+        backgroundColor: hexToColor(widget.story.color),
+        body: const Center(
+            child: CircularProgressIndicator(color: Colors.black)));
   }
 }
