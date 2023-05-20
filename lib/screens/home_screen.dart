@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_app/screens/story_detail.dart';
 import 'package:flutter_app/screens/story_loading.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -27,6 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         backgroundColor: hexToColor("#f2eee5"),
         appBar: AppBar(
+          systemOverlayStyle: SystemUiOverlayStyle.dark,
           shadowColor: Colors.transparent,
           backgroundColor: Colors.transparent,
           title: const Text(

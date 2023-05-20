@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../model.dart';
 
@@ -53,6 +54,7 @@ class _StoryDetailScreenState extends State<StoryDetailScreen> {
         onWillPop: () async => false,
         child: Scaffold(
             appBar: AppBar(
+              systemOverlayStyle: SystemUiOverlayStyle.dark,
               shadowColor: Colors.transparent,
               backgroundColor: Colors.transparent,
               title: Text(
