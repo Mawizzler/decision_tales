@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               fontWeight: FontWeight.w700,
                               height: 1.5))),
                   Container(
-                      padding: const EdgeInsets.only(left: 10),
+                      margin: const EdgeInsets.only(left: 10),
                       height: 360,
                       child: ListView.builder(
                           itemCount: stories.length,
@@ -132,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                         Text(stories[index].title,
                                             style: TextStyle(
                                               color: Colors.grey.shade900,
-                                              fontSize: 15,
+                                              fontSize: 16,
                                               letterSpacing: -0.4,
                                               fontWeight: FontWeight.w700,
                                             )),
